@@ -1,0 +1,38 @@
+@import './sass/reset';
+
+// ======= Variables ======= //
+@import './sass/variables';
+
+// ======= Mixins ======= //
+@import './sass/mixins';
+
+// ======= Components ======= //
+
+@import './Components/Work/Work';
+@import './Components/EduExperience/EduExperience';
+@import './Components/About/About';
+@import './Components/Footer/Footer';
+
+.App {
+    .mainHeader {
+        width: 100vw;
+
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+        text-align: center;
+
+        font: {
+            family: $handwriting;
+            size: 5rem;
+        }
+
+        h2 {
+            font: {
+                family: $handwriting;
+                size: 2rem;
+            }
+            margin-top: 15px;
+        }
+    }
+}
