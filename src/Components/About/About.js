@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import $ from 'jquery';
-import loops from './../../images/loops3.svg';
+import loopsLeft from './../../images/loopsAboutLeft.svg';
+import loopsRight from './../../images/loopsAboutRight.svg';
 import skills from './../../images/skills.svg';
+import me from './../../images/me.png';
 
 class About extends Component {
 
@@ -13,8 +15,9 @@ class About extends Component {
                         $('#Work section').hide(400);
                         $('#EduExperience section').hide(400);                        
                     }}>
-                    <img src={loops}/>
+                    <img src={loopsLeft}/>
                     <h1>My Skills & Interests</h1>
+                    <img src={loopsRight}/>
                 </header>
                 <section>
                     <div className="flexContainer">
@@ -33,6 +36,10 @@ class About extends Component {
                                 <li>Hiking & Skiing: <span>I moved to Utah for good reason!</span></li>
                                 <li>Cooking & Baking: <span>especially chocolate chip cookies.</span></li>                            
                             </ul>
+                        </div>
+                        <div className="project">
+                            <h2>Me</h2>
+                            <div><img id="me" src={me} alt="emily keator web developer"/></div>
                         </div>
                     </div>
                 </section>

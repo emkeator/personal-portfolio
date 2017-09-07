@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import $ from 'jquery';
-import loops from './../../images/loops1.svg';
+import loopsLeft from './../../images/loopsEduExLeft.svg';
+import loopsRight from './../../images/loopsEduExRight.svg';
 import skylines from './../../images/skylines.svg';
 import dLCert from './../../files/deep-learning-certificate.pdf';
 import fendNano from './../../files/frontend-nanodegree.pdf';
@@ -15,8 +16,9 @@ class EduExperience extends Component {
                         $('#Work section').hide(400);
                         $('#About section').hide(400);                        
                     }}>
-                    <img src={loops}/>
+                    <img src={loopsLeft}/>
                     <h1>My Education & Experience</h1>
+                    <img src={loopsRight}/>
                 </header>
                 <section>
                     <img src={skylines} id="skylines" alt="skylines"/> 
@@ -41,7 +43,7 @@ class EduExperience extends Component {
                                 <h3 className="second">NOV 2016 - JULY 2017</h3>                                
                             </div>
                             <ul>
-                                <li>Enrolled in <a href="" target="_blank">Front-End Web Developer Nanodegree</a> & <a href="" target="_blank">Deep Learning Foundation Nanodegree</a>.</li>                                
+                                <li>Enrolled in <a href={fendNano} target="_blank">Front-End Web Developer Nanodegree</a> & <a href={dLCert} target="_blank">Deep Learning Foundation Nanodegree</a>.</li>                                
                                 <li>Earned nanodegree in Front-End Web Dev & certificate in Deep Learning Foundations through online coursework with regular projects.</li>                                                             
                             </ul>
                         </div>

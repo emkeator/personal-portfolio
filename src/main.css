@@ -64,12 +64,11 @@ table {
     width: 100vw;
     position: relative;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
     #Work header img {
-      position: absolute;
-      top: -20px;
-      left: 0;
-      width: 100vw; }
+      width: calc(25vw / 2);
+      height: 100%; }
     #Work header h1 {
       width: 75vw;
       height: 120px;
@@ -88,7 +87,7 @@ table {
     display: none; }
   #Work .flexContainer {
     height: 400px;
-    width: calc((4 * 600px) + (5 * 50px));
+    width: calc((3 * 600px) + (4 * 50px));
     display: flex;
     justify-content: space-around;
     align-items: center; }
@@ -129,14 +128,12 @@ table {
     #Work .project img {
       width: 275px;
       height: 184px;
-      margin-right: 8px;
       border: 1px solid lightgrey;
       cursor: pointer; }
     #Work .project p {
       width: 275px;
       height: 184px;
-      margin-left: 8px;
-      padding: 5px 7px;
+      padding: 5px 0 5px 20px;
       letter-spacing: 0.05em;
       line-height: 1.2em;
       font-family: "Open Sans", sans-serif;
@@ -158,12 +155,11 @@ table {
     width: 100vw;
     position: relative;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
     #EduExperience header img {
-      position: absolute;
-      top: 0px;
-      left: 0;
-      width: 100vw; }
+      width: calc(25vw / 2);
+      height: 100%; }
     #EduExperience header h1 {
       width: 75vw;
       height: 120px;
@@ -259,12 +255,11 @@ table {
     width: 100vw;
     position: relative;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    align-items: center; }
     #About header img {
-      position: absolute;
-      top: 0px;
-      left: 0;
-      width: 100vw; }
+      width: calc(25vw / 2);
+      height: 100%; }
     #About header h1 {
       width: 75vw;
       height: 120px;
@@ -283,7 +278,7 @@ table {
     display: none; }
   #About .flexContainer {
     height: 400px;
-    width: 100vw;
+    width: calc((3 * 600px) + (4 * 50px));
     display: flex;
     justify-content: space-around;
     align-items: center; }
@@ -336,6 +331,14 @@ table {
       color: #753535;
       font-size: 1.2rem;
       font-family: "Open Sans", sans-serif; }
+    #About .project div {
+      width: 100%;
+      padding-top: 15px;
+      text-align: center; }
+    #About .project #me {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%; }
 
 @media (min-width: 650px) {
   #About header h1 {

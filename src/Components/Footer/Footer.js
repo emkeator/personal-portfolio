@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import $ from 'jquery';
-import loops from './../../images/loops2.svg';
 import github from './../../images/github.svg';
 import linkedin from './../../images/linkedin.svg';
 import resume from './../../images/resume.svg';

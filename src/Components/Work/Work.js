@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import $ from 'jquery';
-import loops from './../../images/loops2.svg';
+import loopsLeft from './../../images/loopsWorkLeft.svg';
+import loopsRight from './../../images/loopsWorkRight.svg';
 import balletslc from './../../images/balletslc.png';
 import lonelymtn from './../../images/lonelymtn.png';
 import utParks from './../../images/utnationalparks.png';
@@ -15,8 +16,9 @@ class Work extends Component {
                         $('#EduExperience section').hide(400);
                         $('#About section').hide(400);                        
                     }}>
-                    <img src={loops}/> 
+                    <img src={loopsLeft}/> 
                     <h1>My Work</h1>
+                    <img src={loopsRight}/>                     
                 </header>
                 <section>
                     <div className="flexContainer">

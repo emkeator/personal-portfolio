@@ -10,13 +10,12 @@
         position: relative;
         display: flex;
         justify-content: center;
+        align-items: center;
 
         img {
-            position: absolute;
-            top: 0px;
-            left: 0;
-            width: 100vw;
-        }
+            width: calc(25vw / 2);
+            height: 100%;
+        }      
         h1 {
             width: 75vw;
             height: 120px;
