@@ -235,12 +235,17 @@ table {
     margin-right: 20px; }
     #EduExperience #born .headers {
       width: 250px;
-      padding-top: 100px; }
+      padding-top: 10px; }
+    #EduExperience #born div {
+      width: 250px;
+      text-align: center; }
+    #EduExperience #born img {
+      width: 120px; }
     #EduExperience #born h1 {
       width: 250px;
-      padding-top: 10px;
+      padding-top: 5px;
       font-family: "Indie Flower", serif;
-      font-size: 3rem;
+      font-size: 2.5rem;
       text-align: center; }
 
 @media (min-width: 650px) {
@@ -306,16 +311,16 @@ table {
     #About .project ul {
       width: 100%;
       text-align: center;
-      margin-top: 30px;
+      margin-top: 20px;
       padding: 0px 30px; }
     #About .project li {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       font-family: "Indie Flower", serif;
       margin-top: 8px;
       line-height: 1.15em; }
       #About .project li span {
-        margin-left: 5px;
-        font-size: 1.1rem;
+        margin-left: 1px;
+        font-size: 1rem;
         font-family: "Open Sans", sans-serif; }
     #About .project h2 {
       width: 100%;
