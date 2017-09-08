@@ -132,14 +132,21 @@
         margin-right: 20px;
         .headers {
             width: 250px;
-            padding-top: 100px;
+            padding-top: 10px;
+        }
+        div {
+            width: 250px;
+            text-align: center;
+        }
+        img {
+            width: 120px;
         }
         h1 {
             width: 250px;
-            padding-top: 10px;
+            padding-top: 5px;
             font: {
                 family: $handwriting;
-                size: 3rem;
+                size: 2.5rem;
             }
             text-align: center;
         }

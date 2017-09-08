@@ -3,6 +3,7 @@ import $ from 'jquery';
 import loopsLeft from './../../images/loopsEduExLeft.svg';
 import loopsRight from './../../images/loopsEduExRight.svg';
 import skylines from './../../images/skylines.svg';
+import superbaby from './../../images/superbaby.svg';
 import dLCert from './../../files/deep-learning-certificate.pdf';
 import fendNano from './../../files/frontend-nanodegree.pdf';
 
@@ -126,6 +127,7 @@ class EduExperience extends Component {
                                 <h2 className="secondH2">New York City</h2>                                
                                 <h2 className="secondH2">Metropolitan Area</h2>                                
                             </div>
+                            <div><img src={superbaby} alt="emily keator web developer as a child"/></div>
                             <h1>START!</h1>
                         </div>
                         

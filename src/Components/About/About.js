@@ -30,11 +30,12 @@ class About extends Component {
                         <div className="project">
                             <h2>Interests</h2>
                             <ul>
-                                <li>Programming: <span>in addition to web development, I enjoyed learning about Deep Learning/AI</span></li>
-                                <li>Design: <span>I love spending time to make my work look good!</span></li>
-                                <li>Science & Technology: <span>now a web developer, I used to work in biological research for genomics</span></li>
-                                <li>Hiking & Skiing: <span>I moved to Utah for good reason!</span></li>
-                                <li>Cooking & Baking: <span>especially chocolate chip cookies.</span></li>                            
+                                <li>Programming: <span>in addition to web development, I am fascinated by and have studied some Deep Learning/AI.</span></li>
+                                <li>Design: <span>I love spending time making my projects look beautiful.</span></li>
+                                <li>Science & Tech: <span>now a web developer, I once worked in genetics/genomics research.</span></li>
+                                <li>Hiking & Skiing: <span>I moved West for a lifetime of adventures.</span></li>
+                                <li>Cooking & Baking: <span>especially chocolate chip cookies.</span></li> 
+                                <li>Reading: <span>when in doubt, go to the library.</span></li>                                                           
                             </ul>
                         </div>
                         <div className="project">
