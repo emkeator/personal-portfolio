@@ -124,8 +124,8 @@ class EduExperience extends Component {
                         </div>
                         <div className="eduEx" id="born">
                             <div className="headers">
-                                <h2 className="secondH2">New York City</h2>                                
-                                <h2 className="secondH2">Metropolitan Area</h2>                                
+                                <h2 className="secondH2">Ponte Vedra</h2>                                
+                                <h2 className="secondH2">Florida</h2>                                
                             </div>
                             <div><img src={superbaby} alt="emily keator web developer as a child"/></div>
                             <h1>START!</h1>
