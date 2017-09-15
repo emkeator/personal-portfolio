@@ -23,16 +23,17 @@ class Work extends Component {
                 <section>
                     <div className="flexContainer">
                         <div className="project">
-                            <h2>Ballet SLC</h2>
+                            <a href="http://138.68.236.159:3005/#/" target="_blank"><h2>Ballet SLC</h2></a>
                             <h3>Personally Developed Full-Stack Responsive Web App</h3>
                             <div>
-                                <a href="https://youtu.be/oHwqbTwmo_c" target="_blank">
+                                <a href="https://youtu.be/K9R78UiJn-c" target="_blank">
                                     <img src={balletslc} alt="emily keator project"/>
                                 </a>
-                                <p>*DevMountain class project MVP - will be fully deployed by 9/16/17.*
+                                <p>Full-stack responsive web app. DevMountain personal project.
                                     <ul>
-                                        <li>FRONT-END: React, Sass, jQuery.</li>
+                                        <li>FRONT-END: React, GSAP, Sass, jQuery.</li>
                                         <li>BACK-END: Node.js, Massive.js, Postgres SQL (database hosted in Heroku), Express.js.</li>                                        
+                                        <li>Uses: Stripe API.</li>                                    
                                     </ul>
                                     Video tour: click image at left.
                                 </p>
