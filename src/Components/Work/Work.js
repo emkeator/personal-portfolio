@@ -29,10 +29,10 @@ class Work extends Component {
                                 <a href="https://youtu.be/K9R78UiJn-c" target="_blank">
                                     <img src={balletslc} alt="emily keator project"/>
                                 </a>
-                                <p>Full-stack responsive web app. DevMountain personal project.
+                                <p>WINNER, Best Overall Personal Project, DevMountain Cohort 26.
                                     <ul>
                                         <li>FRONT-END: React, GSAP, Sass, jQuery.</li>
-                                        <li>BACK-END: Node.js, Massive.js, Postgres SQL (database hosted in Heroku), Express.js.</li>                                        
+                                        <li>BACK-END: Node.js, Massive.js, Postgres SQL, Express.js.</li>                                        
                                         <li>Uses: Stripe API.</li>                                    
                                     </ul>
                                     Video tour: click image at left.

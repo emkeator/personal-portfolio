@@ -28,12 +28,13 @@ class EduExperience extends Component {
                             <div className="headers">
                                 <h2>DevMountain</h2>
                                 <h2 className="secondH2">Provo, UT</h2>
-                                <h3>Student Developer</h3>
+                                <h3>Student Developer, Cohort 26</h3>
                                 <h3 className="second">CURRENT</h3>                                
                             </div>
                             <ul>
                                 <li>Emphasis on Full-Stack Development with React, Sass, Node, Express, Massive, SQL.</li>
-                                <li>Developed web apps regularly, while improving skills with in-class demos and projects.</li>                                                              
+                                <li>Developed web apps regularly, while improving skills with in-class demos and projects.</li>
+                                <li>Won "Best Overall" Personal Project in cohort.</li>                                                               
                             </ul>
                         </div>
                         <div className="eduEx" id="online">
