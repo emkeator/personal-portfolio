@@ -24,12 +24,25 @@ class EduExperience extends Component {
                 <section>
                     <img src={skylines} id="skylines" alt="skylines"/> 
                     <div className="flexContainer">
+                        <div className="eduEx" id="devmtn">
+                            <div className="headers">
+                                <h2>DevMountain</h2>
+                                <h2 className="secondH2">Provo, UT</h2>
+                                <h3>Mentor</h3>
+                                <h3 className="second">CURRENT</h3>                                
+                            </div>
+                            <ul>
+                                <li>Taught students and collaborated on projects for DevMountain.</li>
+                                <li>Emphasis on Full-Stack Development with React, Sass, Node, Express, Massive, SQL.</li>
+                                <li>Acted like a project manager for in-class full-stack app building simulations.</li>
+                            </ul>
+                        </div>
                         <div className="eduEx" id="provo">
                             <div className="headers">
                                 <h2>DevMountain</h2>
                                 <h2 className="secondH2">Provo, UT</h2>
                                 <h3>Student Developer, Cohort 26</h3>
-                                <h3 className="second">CURRENT</h3>                                
+                                <h3 className="second">JULY 2017 - OCT 2017</h3>                                
                             </div>
                             <ul>
                                 <li>Emphasis on Full-Stack Development with React, Sass, Node, Express, Massive, SQL.</li>
