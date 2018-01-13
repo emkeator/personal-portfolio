@@ -33,8 +33,8 @@ class EduExperience extends Component {
                             </div>
                             <ul>
                                 <li>Taught students and collaborated on projects for DevMountain.</li>
-                                <li>Emphasis on Full-Stack Development with React, Sass, Node, Express, Massive, SQL.</li>
-                                <li>Acted like a project manager for in-class full-stack app building simulations.</li>
+                                <li>Emphasis on Full-Stack Development with React, Sass, Node, Express, Massive, SQL, Vue.js.</li>
+                                <li>Assisted on admin projects.</li>
                             </ul>
                         </div>
                         <div className="eduEx" id="provo">
