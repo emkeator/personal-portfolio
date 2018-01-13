@@ -5,10 +5,87 @@ import loopsRight from './../../images/loopsWorkRight.svg';
 import balletslc from './../../images/balletslc.png';
 import lonelymtn from './../../images/lonelymtn.png';
 import utParks from './../../images/utnationalparks.png';
+import bc from './../../images/black_canary.png';
+import travel from './../../images/on_the_fly.png';
+import sothebys from './../../images/sothebys.png';
+import WorkProject from './WorkProject/WorkProject';
 
 class Work extends Component {
-
+    constructor() {
+        super();
+        this.state = {
+            projects: [
+                {
+                    hostedLink: "https://travel-showcase-app.herokuapp.com/#/login",
+                    title: "On The Fly Travel App",
+                    subtitle: "Personally Developed Full-Stack Responsive Web App",
+                    videoTour: "https://youtu.be/eMnqAk2lCHM",
+                    imgSrc: travel,
+                    altText: "emily keator travel app project",
+                    pTopText: "Travel app that allows user to plan & save trips, and \"chat\" with an agent.",
+                    listPoints: ["FRONT-END: React, GSAP, Sass.", "BACK-END: Node.js, Massive.js, Postgres SQL, Express.js., Socket.io.", "Uses: Amazon S3, airport code API.", "Test login: testingtravelapp@gmail.com; testingTravel."],
+                    pBottomText: "Video tour: click image at left.",
+                },
+                {
+                    hostedLink: "https://blackcanarysafetyapp.herokuapp.com/#/",
+                    title: "Black Canary Safety App",
+                    subtitle: "Group Developed Full-Stack Responsive Web App",
+                    videoTour: "https://youtu.be/cw8VR4JNrwk",
+                    imgSrc: bc,
+                    altText: "emily keator black canary safety app dev mountain group project",
+                    pTopText: "Geolocation web app for sharing your location with friends in a variety of situations.",
+                    listPoints: ["FRONT-END: React, Geolocation, GSAP, Sass, jQuery.", "BACK-END: Node.js, Massive.js, Postgres SQL, Express.js., Socket.io.", "Uses: Google Maps API."],
+                    pBottomText: "Video tour: click image at left.",
+                },
+                {
+                    hostedLink: "http://balletslc.com/#/",
+                    title: "Ballet SLC",
+                    subtitle: "Personally Developed Full-Stack Responsive Web App",
+                    videoTour: "https://youtu.be/K9R78UiJn-c",
+                    imgSrc: balletslc,
+                    altText: "emily keator ballet salt lake city project",
+                    pTopText: "Full-stack, mobile-responsive web app for a fake ballet company.",
+                    listPoints: ["FRONT-END: React, GSAP, Sass, jQuery.", "BACK-END: Node.js, Massive.js, Postgres SQL, Express.js.", "Uses: Stripe API."],
+                    pBottomText: "Video tour: click image at left.",
+                },
+                {
+                    hostedLink: "https://vue-sothebys-clone.herokuapp.com/#/",
+                    title: "Summit Sotheby's Realty Clone",
+                    subtitle: "Redesigned Vue.js Front-End Web App",
+                    videoTour: "",
+                    imgSrc: sothebys,
+                    altText: "emily keator vue.js summit sotheby's project",
+                    pTopText: "Front-end Vue.js redesigned clone of Summit Sotheby's Realty Website.",
+                    listPoints: ["FRONT-END: Vue.js, CSS, HTML5.", "BACK-END: Node.js, Express.js."],
+                    pBottomText: "Uses a simple backend node.js server.",
+                },
+                {
+                    hostedLink: "https://emkeator.github.io/lonely-mountain-winery-project-site/#/",
+                    title: "Lonely Mountain Winery",
+                    subtitle: "Personally Developed Web App",
+                    videoTour: "https://youtu.be/EGUSxEn0syA",
+                    imgSrc: lonelymtn,
+                    altText: "emily keator lonely mountain winery project",
+                    pTopText: "Front-end, responsive web app. DevMountain personal no-server project.",
+                    listPoints: ["FRONT-END: React, Sass, jQuery.", "Uses: Google Maps API."],
+                    pBottomText: "Video tour: click image at left.",
+                },
+                {
+                    hostedLink: "https://emkeator.github.io/frontend-nanodegree-maps-project/",
+                    title: "Utah Parks Map",
+                    subtitle: "Personally Developed Responsive Web App",
+                    videoTour: "https://youtu.be/fpQ9qUgUO1E",
+                    imgSrc: utParks,
+                    altText: "emily keator utah national parks project",
+                    pTopText: "Front-end, responsive web app. Udacity Front-End Nanodegree project.",
+                    listPoints: ["FRONT-END: HTML, CSS, JS, Knockout.js.", "Uses: Google Maps API, Weather Underground API."],
+                    pBottomText: "Video tour: click image at left.",
+                }
+            ]
+        }
+    }
     render() {
+        
         return(
             <main id="Work">
                 <header onClick={() => {
@@ -22,55 +99,10 @@ class Work extends Component {
                 </header>
                 <section>
                     <div className="flexContainer">
-                        <div className="project">
-                            <a href="http://138.68.236.159:3005/#/" target="_blank"><h2>Ballet SLC</h2></a>
-                            <h3>Personally Developed Full-Stack Responsive Web App</h3>
-                            <div>
-                                <a href="https://youtu.be/K9R78UiJn-c" target="_blank">
-                                    <img src={balletslc} alt="emily keator project"/>
-                                </a>
-                                <p>WINNER, Best Overall Personal Project, DevMountain Cohort 26.
-                                    <ul>
-                                        <li>FRONT-END: React, GSAP, Sass, jQuery.</li>
-                                        <li>BACK-END: Node.js, Massive.js, Postgres SQL, Express.js.</li>                                        
-                                        <li>Uses: Stripe API.</li>                                    
-                                    </ul>
-                                    Video tour: click image at left.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="project">
-                            <a href="https://emkeator.github.io/lonely-mountain-winery-project-site/#/" target="_blank"><h2>Lonely Mountain Winery</h2></a>
-                            <h3>Personally Developed Web App</h3>
-                            <div>
-                                <a href="https://youtu.be/EGUSxEn0syA" target="_blank">
-                                    <img src={lonelymtn} alt="emily keator project"/>
-                                </a>
-                                <p>Front-end, responsive web app. DevMountain personal no-server project.
-                                    <ul>
-                                        <li>FRONT-END: React, Sass, jQuery.</li>
-                                        <li>Uses: Google Maps API.</li>                                        
-                                    </ul>
-                                    Video tour: click image at left.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="project">
-                            <a href="https://emkeator.github.io/frontend-nanodegree-maps-project/" target="_blank"><h2>Utah Parks Map</h2></a>
-                            <h3>Personally Developed Responsive Web App</h3>
-                            <div>
-                                <a href="https://youtu.be/fpQ9qUgUO1E" target="_blank">
-                                    <img src={utParks} alt="emily keator project"/>
-                                </a>
-                                <p>Front-end, responsive web app. Udacity Front-End Nanodegree project.
-                                    <ul>
-                                        <li>FRONT-END: HTML, CSS, JS, Knockout.js.</li>
-                                        <li>Uses: Google Maps API, Weather Underground API.</li>                                        
-                                    </ul>
-                                    Video tour: click image at left.
-                                </p>
-                            </div>
-                        </div>
+                        {this.state.projects.map(e => {
+                            {/* console.log(e); */}
+                            return <WorkProject project={e}/>
+                        })}
                     </div>
                 </section>
             </main>

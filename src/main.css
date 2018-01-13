@@ -65,7 +65,8 @@ table {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    cursor: pointer; }
     #Work header img {
       width: calc(25vw / 2);
       height: 100%; }
@@ -86,14 +87,14 @@ table {
     overflow: scroll;
     display: none; }
   #Work .flexContainer {
-    height: 400px;
-    width: calc((3 * 600px) + (4 * 50px));
+    height: 450px;
+    width: calc((6 * 650px) + (7 * 50px));
     display: flex;
     justify-content: space-around;
     align-items: center; }
   #Work .project {
-    width: 600px !important;
-    height: 350px;
+    width: 650px !important;
+    height: 400px;
     margin: 0 50px;
     background-color: #000;
     color: #fff;
@@ -156,7 +157,8 @@ table {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    cursor: pointer; }
     #EduExperience header img {
       width: calc(25vw / 2);
       height: 100%; }
@@ -261,7 +263,8 @@ table {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    cursor: pointer; }
     #About header img {
       width: calc(25vw / 2);
       height: 100%; }
@@ -305,7 +308,7 @@ table {
       justify-content: center;
       align-items: center; }
       #About .project .skills img {
-        width: 550px;
+        width: 500px;
         margin: 0;
         border: none; }
     #About .project ul {

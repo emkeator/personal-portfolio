@@ -5,7 +5,7 @@ import linkedin from './../../images/linkedin.svg';
 import resume from './../../images/resume.svg';
 import email from './../../images/email.svg';
 import instagram from './../../images/instagram.svg';
-import resumeFile from './../../files/EmKeatorTechRes_Oct9.pdf';
+import resumeFile from './../../files/EmKeatorTechRes_Jan12_2018.pdf';
 
 
 class Footer extends Component {

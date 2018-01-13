@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import $ from 'jquery';
 import loopsLeft from './../../images/loopsAboutLeft.svg';
 import loopsRight from './../../images/loopsAboutRight.svg';
-import skills from './../../images/skills.svg';
+import skills from './../../images/skills_darkBG_1:12:18.png';
 import me from './../../images/me.png';
 
 class About extends Component {

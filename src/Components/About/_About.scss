@@ -11,6 +11,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
 
         img {
             width: calc(25vw / 2);
@@ -75,7 +76,7 @@
             justify-content: center;
             align-items: center;
             img {
-                width: (550px);
+                width: (500px);
                 margin: 0;
                 border: none;
             }

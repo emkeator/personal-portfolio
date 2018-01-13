@@ -11,6 +11,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
 
         img {
             width: calc(25vw / 2);
@@ -45,8 +46,8 @@
     }
 
     .flexContainer {
-        height: 400px;
-        width: calc((3 * 600px) + (4 * 50px));
+        height: 450px;
+        width: calc((6 * 650px) + (7 * 50px));
 
         display: flex;
         justify-content: space-around;
@@ -54,8 +55,8 @@
     }
 
     .project{
-        width: 600px !important;
-        height: 350px;
+        width: 650px !important;
+        height: 400px;
         margin: 0 50px;
         background-color: $black;
         color: $white;
