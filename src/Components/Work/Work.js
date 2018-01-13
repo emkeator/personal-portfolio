@@ -23,8 +23,8 @@ class Work extends Component {
                     imgSrc: travel,
                     altText: "emily keator travel app project",
                     pTopText: "Travel app that allows user to plan & save trips, and \"chat\" with an agent.",
-                    listPoints: ["FRONT-END: React, GSAP, Sass.", "BACK-END: Node.js, Massive.js, Postgres SQL, Express.js., Socket.io.", "Uses: Amazon S3, airport code API.", "Test login: testingtravelapp@gmail.com; testingTravel."],
-                    pBottomText: "Video tour: click image at left.",
+                    listPoints: ["Travel app that allows user to plan & save trips, and \"chat\" with an agent.", "FRONT-END: React, GSAP, Sass.", "BACK-END: Node.js, Massive.js, Postgres SQL, Express.js., Socket.io.", "Uses: Amazon S3, airport code API.", "Login: testingtravelapp@gmail.com; testingTravel."],
+                    pBottomText: "",
                 },
                 {
                     hostedLink: "https://blackcanarysafetyapp.herokuapp.com/#/",
@@ -34,8 +34,8 @@ class Work extends Component {
                     imgSrc: bc,
                     altText: "emily keator black canary safety app dev mountain group project",
                     pTopText: "Geolocation web app for sharing your location with friends in a variety of situations.",
-                    listPoints: ["FRONT-END: React, Geolocation, GSAP, Sass, jQuery.", "BACK-END: Node.js, Massive.js, Postgres SQL, Express.js., Socket.io.", "Uses: Google Maps API."],
-                    pBottomText: "Video tour: click image at left.",
+                    listPoints: ["Geolocation web app for sharing your location with friends in a variety of situations.", "FRONT-END: React, Geolocation, GSAP, Sass, jQuery.", "BACK-END: Node.js, Massive.js, Postgres SQL, Express.js., Socket.io.", "Uses: Google Maps API."],
+                    pBottomText: "",
                 },
                 {
                     hostedLink: "http://balletslc.com/#/",
@@ -45,8 +45,8 @@ class Work extends Component {
                     imgSrc: balletslc,
                     altText: "emily keator ballet salt lake city project",
                     pTopText: "Full-stack, mobile-responsive web app for a fake ballet company.",
-                    listPoints: ["FRONT-END: React, GSAP, Sass, jQuery.", "BACK-END: Node.js, Massive.js, Postgres SQL, Express.js.", "Uses: Stripe API."],
-                    pBottomText: "Video tour: click image at left.",
+                    listPoints: ["Full-stack, mobile-responsive web app for a fake ballet company.", "FRONT-END: React, GSAP, Sass, jQuery.", "BACK-END: Node.js, Massive.js, Postgres SQL, Express.js.", "Uses: Stripe API.", "Notable features: 3D-interactive ticket selector."],
+                    pBottomText: "Notable features: 3D-interactive ticket selector.",
                 },
                 {
                     hostedLink: "https://vue-sothebys-clone.herokuapp.com/#/",
@@ -56,8 +56,8 @@ class Work extends Component {
                     imgSrc: sothebys,
                     altText: "emily keator vue.js summit sotheby's project",
                     pTopText: "Front-end Vue.js redesigned clone of Summit Sotheby's Realty Website.",
-                    listPoints: ["FRONT-END: Vue.js, CSS, HTML5.", "BACK-END: Node.js, Express.js."],
-                    pBottomText: "Uses a simple backend node.js server.",
+                    listPoints: ["Front-end Vue.js redesigned clone of Summit Sotheby's Realty Website." ,"FRONT-END: Vue.js, CSS, HTML5.", "BACK-END: Node.js, Express.js.", "Uses a simple backend node.js server; intend to fill out further functionality in 2018."],
+                    pBottomText: "Uses a simple backend node.js server; intend to fill out further functionality in 2018.",
                 },
                 {
                     hostedLink: "https://emkeator.github.io/lonely-mountain-winery-project-site/#/",
@@ -67,8 +67,8 @@ class Work extends Component {
                     imgSrc: lonelymtn,
                     altText: "emily keator lonely mountain winery project",
                     pTopText: "Front-end, responsive web app. DevMountain personal no-server project.",
-                    listPoints: ["FRONT-END: React, Sass, jQuery.", "Uses: Google Maps API."],
-                    pBottomText: "Video tour: click image at left.",
+                    listPoints: ["Front-end, responsive web app. DevMountain personal no-server project.", "FRONT-END: React, Sass, jQuery.", "Uses: Google Maps API."],
+                    pBottomText: "",
                 },
                 {
                     hostedLink: "https://emkeator.github.io/frontend-nanodegree-maps-project/",
@@ -78,8 +78,8 @@ class Work extends Component {
                     imgSrc: utParks,
                     altText: "emily keator utah national parks project",
                     pTopText: "Front-end, responsive web app. Udacity Front-End Nanodegree project.",
-                    listPoints: ["FRONT-END: HTML, CSS, JS, Knockout.js.", "Uses: Google Maps API, Weather Underground API."],
-                    pBottomText: "Video tour: click image at left.",
+                    listPoints: ["Front-end, responsive web app. Udacity Front-End Nanodegree project.", "FRONT-END: HTML, CSS, JS, Knockout.js.", "Uses: Google Maps API, Weather Underground API."],
+                    pBottomText: "",
                 }
             ]
         }

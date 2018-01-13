@@ -87,14 +87,14 @@ table {
     overflow: scroll;
     display: none; }
   #Work .flexContainer {
-    height: 450px;
-    width: calc((6 * 650px) + (7 * 50px));
+    height: 400px;
+    width: calc((6 * 650px) + (7 * 100px));
     display: flex;
     justify-content: space-around;
     align-items: center; }
   #Work .project {
     width: 650px !important;
-    height: 400px;
+    height: 350px;
     margin: 0 50px;
     background-color: #000;
     color: #fff;
@@ -103,9 +103,27 @@ table {
       background-color: #753535; }
       #Work .project:hover h3 {
         color: #000; }
+    #Work .project .projectLeft,
+    #Work .project .projectRight {
+      width: calc(650px / 2);
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center; }
+    #Work .project .projectLeft {
+      padding-right: 15px;
+      justify-content: flex-end; }
+      #Work .project .projectLeft p {
+        width: 275px;
+        text-align: center; }
+    #Work .project .projectRight {
+      padding-left: 15px;
+      justify-content: flex-start; }
     #Work .project a {
       color: #fff;
-      text-decoration: none; }
+      text-decoration: none;
+      position: relative; }
     #Work .project h2 {
       width: 100%;
       height: 50px;
@@ -131,18 +149,19 @@ table {
       height: 184px;
       border: 1px solid lightgrey;
       cursor: pointer; }
-    #Work .project p {
+    #Work .project .videoTriangle {
+      opacity: 1;
       width: 275px;
-      height: 184px;
-      padding: 5px 0 5px 20px;
+      height: 184px; }
+      #Work .project .videoTriangle:hover {
+        background-color: rgba(0, 0, 0, 0.5); }
+    #Work .project .info {
       letter-spacing: 0.05em;
       line-height: 1.2em;
       font-family: "Open Sans", sans-serif;
       font-size: 90%; }
-      #Work .project p ul {
-        margin: 10px 0; }
-      #Work .project p li {
-        margin-top: 10px; }
+      #Work .project .info li {
+        margin-bottom: 10px; }
 
 @media (min-width: 650px) {
   #Work header h1 {
