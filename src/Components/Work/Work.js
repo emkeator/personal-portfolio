@@ -38,7 +38,7 @@ class Work extends Component {
                     pBottomText: "",
                 },
                 {
-                    hostedLink: "http://balletslc.com/#/",
+                    hostedLink: "https://slc-ballet.herokuapp.com/#/",
                     title: "Ballet SLC",
                     subtitle: "Personally Developed Full-Stack Responsive Web App",
                     videoTour: "https://youtu.be/K9R78UiJn-c",
